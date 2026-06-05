@@ -128,7 +128,7 @@ a:hover {
 .header-problema p {
     font-size: 20px;
     line-height: 1.7;
-    text-align: justify;
+    text-align: center;
 }
 
 .container-cards {
@@ -443,9 +443,32 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
+.container-aplicacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 350px;
+}
+
+
+.cards-aplicacao {
+    width: 150px;
+    padding: 20px;
+    color: var(--color-card);
+    text-align: center;
+}
+
+.cards-aplicacao:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-light);
+    box-shadow: 0 0 0px rgba(134, 121, 121, 0.25);
+    transition: 0.3s;
+}
 
 .header-aplicacao {
     font-size: 50px;
@@ -453,23 +476,47 @@ a:hover {
     max-width: 700px;
 }
 
-.cards-aplicacao {
-    font-size: 20px;
-    width: 100%;
-    max-width: 900px;
-    background-color: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(28, 27, 34, 0.4);
-    border-radius: 18px;
-    padding: 25px;
-    transition: 0.3s;
+.img{
+    width: 300px;
+    border-radius: 50px;
+    display: block;
+    left: 50px;
+    position: absolute;
+    margin-top: 30px;
 }
 
-.cards-aplicacao:hover {
+
+.aplicacao-item{
+    width: 200px;
+    min-height: 280px;
+    background-color: rgba(255,255,255,0.08);
+    border: 1px solid rgba(28,27,34,0.4);
+    border-radius: 18px;
+    padding: 25px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aplicacao-item:hover {
     transform: translateY(-8px);
     border-color: var(--color-light);
     box-shadow: 0 0 20px rgba(134, 121, 121, 0.25);
 }
 
+
+.container-aplicacao-ex {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.08); 
+    border: 1px solid rgba(28, 27, 34, 0.4); 
+    border-radius: 18px;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: space-around;
+}
 .topo{
     display: flex;
     justify-content: center;
@@ -658,7 +705,7 @@ a:hover {
 
 .web.tema-claro{
     background-image:
-    linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.75)),
+    linear-gradient(rgba(217, 217, 217, 0.85), rgba(190, 190, 190, 0.75)),
     url(../img/img-tecnologia.jpg);
     color: black;
 }
@@ -673,6 +720,6 @@ a:hover {
 
 .web.tema-roxo{
     background-image:
-    linear-gradient(rgba(30,10,60,.9), rgba(93, 24, 161, 0.8)),
+    linear-gradient(rgba(87, 57, 132, 0.9), rgba(138, 88, 189, 0.8)),
     url(../img/img-tecnologia.jpg);
 }
