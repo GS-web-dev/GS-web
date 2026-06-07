@@ -1,8 +1,8 @@
 let imagens = [
-    "./img/Astronauta.jpg",
     "./img/img-capa.jpg",
     "./img/slideshow1.jpg",
     "./img/slideshow2.jpg",
+    "./img/Astronauta.jpg",
 ];
 
 let slideAtual = 0;
@@ -77,48 +77,48 @@ document.getElementById("formulario").addEventListener("submit", function(event)
 let perguntas = [
     {
         pergunta: "Qual é o objetivo do Orbit Mind?",
-        opcoes: ["Monitorar fadiga cognitiva", "Controlar foguetes", "Criar redes sociais"],
+        opcoes: ["Monitorar fadiga cognitiva melhorando bem-estar e produtividade.", "Controlar foguetes.", "Desenvolver redes sociais para empresas."],
         correta: 0
     },
     {
         pergunta: "Qual tecnologia inspira o projeto?",
-        opcoes: ["Moda", "Monitoramento de astronautas", "Culinária"],
+        opcoes: ["Energia solar residencial.", "Inteligência Artificial integrada a um wearable inteligente.", "Impressão 3D de objetos."],
         correta: 1
     },
     {
         pergunta: "Qual ODS combina com inovação?",
-        opcoes: ["ODS 9", "ODS 2", "ODS 13"],
-        correta: 0
+        opcoes: ["ODS 2 - Fome Zero.", "ODS 15 - Vida Terrestre.", "ODS 9 - Indústria, Inovação e Infraestrutura."],
+        correta: 2
     },
     {
         pergunta: "O que o sistema busca prevenir?",
-        opcoes: ["Burnout", "Chuva", "Trânsito"],
+        opcoes: ["Fadiga mental, estresse e sobrecarga cognitiva.", "Problemas em computadores.", "Trânsito nas cidades"],
         correta: 0
     },
     {
         pergunta: "Quem pode usar o sistema?",
-        opcoes: ["Profissionais de operações críticas", "Apenas crianças", "Somente atletas"],
+        opcoes: ["Estudantes, profissionais de alta performance e área da saúde.", "Apenas crianças.", "Somente atletas."],
         correta: 0
     },
     {
-        pergunta: "O que é um wearable?",
-        opcoes: ["Dispositivo vestível", "Planeta", "Arquivo CSS"],
-        correta: 0
+        pergunta: "Para que serve o Wearable Inteligente?",
+        opcoes: ["Fazer ligações telefônicas.", "Controlar aparelhos domésticos.", "Coletar sinais biométricos e cognitivos para monitoramento em tempo real."],
+        correta: 2
     },
     {
         pergunta: "Qual dado pode ser analisado?",
-        opcoes: ["Frequência cardíaca", "Cor do cabelo", "Marca do celular"],
+        opcoes: ["Frequência cardíaca.", "Previsão do tempo.", "Pesquisas recentes."],
         correta: 0
     },
     {
         pergunta: "Qual área está ligada ao tema?",
-        opcoes: ["Indústria espacial", "Decoração", "Moda praia"],
-        correta: 0
+        opcoes: ["Decoração.","Indústria espacial e tecnologia.", "Arquitetura."],
+        correta: 1
     },
     {
         pergunta: "O que o alerta preventivo ajuda a evitar?",
-        opcoes: ["Erros por fadiga", "Troca de roupa", "Compras online"],
-        correta: 0
+        opcoes: ["Perda de arquivos do computador.", "Problemas de bateria no dispositivo.","Quedas de desempenho, estresse excessivo e esgotamento mental."],
+        correta: 2
     },
     {
         pergunta: "Qual ODS fala sobre cidades sustentáveis?",
