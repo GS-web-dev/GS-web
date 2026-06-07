@@ -11,6 +11,7 @@
     --color-grey:#8f8d8d66; 
     --color-blue: #072137e8;
     --color-purpple: rgb(66, 66, 129);
+    --color-card: #6ea3f1;
     --spacing-sm:10px;
     --spacing-md: 20px;
     --spacing-lg: 30px;
@@ -37,7 +38,7 @@ a:hover {
 .imagem {
     width: 350px;
     border-radius: 50px;
-    margin-top: -172px;
+    margin-top: -195px;
     display: block;
     position: absolute;
     left: 0;
@@ -116,7 +117,7 @@ a:hover {
 
 .header-problema{
     text-align: center;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
 }
 
@@ -128,7 +129,7 @@ a:hover {
 .header-problema p {
     font-size: 20px;
     line-height: 1.7;
-    text-align: center;
+    text-align: justify;
 }
 
 .container-cards {
@@ -145,7 +146,7 @@ a:hover {
 .cards-problema {
     width: 150px;
     padding: 20px;
-    color: rgb(114, 114, 230);
+    color: var(--color-card);
 }
 
 .cards-problema:hover {
@@ -358,7 +359,7 @@ a:hover {
 }
 
 .publico-item h3{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: var(--color-light);
 }
@@ -371,7 +372,7 @@ a:hover {
 
 .beneficios{
     padding: 100px 8%;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
     url(../img/img-beneficios.jpg);
     background-repeat: no-repeat;
@@ -431,7 +432,7 @@ a:hover {
 
 .aplicacao{
     padding: 100px 8%;
-    height: 100vh;
+    height: 110vh;
     background-image: linear-gradient( rgba(50, 48, 48, 0.8),rgba(49, 47, 47, 0.4)),
     url(../img/img-2.7.png);
     background-repeat: no-repeat;
