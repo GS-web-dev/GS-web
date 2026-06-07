@@ -1,7 +1,8 @@
 let imagens = [
-    "./img/astronauta.png",
-    "./img/img-tecnologia.jpg",
-    "./img/img-capa.jpg"
+    "./img/Astronauta.jpg",
+    "./img/img-capa.jpg",
+    "./img/slideshow1.jpg",
+    "./img/slideshow2.jpg",
 ];
 
 let slideAtual = 0;
