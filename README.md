@@ -6,3 +6,8 @@ INTEGRANTES
 - Kayque Amaro - RM572031
 - Victoria Bandeira Berumen - RM571183
 
+Tecnologias usadas 
+
+- HTML
+- CSS
+- JavaScript
