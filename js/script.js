@@ -3,7 +3,7 @@ let imagens = [
     "./img/slideshow1.jpg",
     "./img/slideshow2.jpg",
     "./img/Astronauta.jpg",
-    "./img/espaço.jpg",
+    "./img/satélite.jpg",
 ];
 
 let slideAtual = 0;
